@@ -34,14 +34,14 @@ Clausewitzエンジン（HoI4）におけるマウスカーソルの制御ロジ
  ┣ 📜 cursor_patcher.py<br>
  ┣ 📜 README.md<br>
  ┗ 📂 custom_cursors/<br>
-    ┣ 📂 ITA/<br>
-    ┃  ┣ 📜 arrow.cur<br>
-    ┃  ┣ 📜 busy.ani<br>
-    ┃  ┗ 📜 ...（その他のカーソルファイル）<br>
-    ┗ 📂 JPN/<br>
-       ┣ 📜 arrow.cur<br>
-       ┣ 📜 busy.ani<br>
-       ┗ 📜 ...（その他のカーソルファイル）<br>
+&emsp;    ┣ 📂 ITA/<br>
+&emsp;    ┃  ┣ 📜 arrow.cur<br>
+&emsp;    ┃  ┣ 📜 busy.ani<br>
+&emsp;    ┃  ┗ 📜 ...（その他のカーソルファイル）<br>
+&emsp;    ┗ 📂 JPN/<br>
+&emsp;&emsp;       ┣ 📜 arrow.cur<br>
+&emsp; &emsp;      ┣ 📜 busy.ani<br>
+&emsp;  &emsp;     ┗ 📜 ...（その他のカーソルファイル）<br>
 
 ## 🚀 使用方法 (Usage)
 
