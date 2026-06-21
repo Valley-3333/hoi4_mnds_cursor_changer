@@ -30,18 +30,18 @@ Clausewitzエンジン（HoI4）におけるマウスカーソルの制御ロジ
 ## 📂 フォルダ構成
 本スクリプト（cursor_patcher.py）を実行するディレクトリに、以下のようにカスタムカーソル素材フォルダ（custom_cursors）を配置してください。
 
-📦 あなたのリポジトリ/
- ┣ 📜 cursor_patcher.py
- ┣ 📜 README.md
- ┗ 📂 custom_cursors/
-    ┣ 📂 ITA/
-    ┃  ┣ 📜 arrow.cur
-    ┃  ┣ 📜 busy.ani
-    ┃  ┗ 📜 ...（その他のカーソルファイル）
-    ┗ 📂 JPN/
-       ┣ 📜 arrow.cur
-       ┣ 📜 busy.ani
-       ┗ 📜 ...（その他のカーソルファイル）
+📦 あなたのリポジトリ/<br>
+ ┣ 📜 cursor_patcher.py<br>
+ ┣ 📜 README.md<br>
+ ┗ 📂 custom_cursors/<br>
+    ┣ 📂 ITA/<br>
+    ┃  ┣ 📜 arrow.cur<br>
+    ┃  ┣ 📜 busy.ani<br>
+    ┃  ┗ 📜 ...（その他のカーソルファイル）<br>
+    ┗ 📂 JPN/<br>
+       ┣ 📜 arrow.cur<br>
+       ┣ 📜 busy.ani<br>
+       ┗ 📜 ...（その他のカーソルファイル）<br>
 
 ## 🚀 使用方法 (Usage)
 
