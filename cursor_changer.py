@@ -141,7 +141,7 @@ def apply_cursors(hoi4_path: Path, faction: str):
 
 def main():
     print("="*60)
-    print(" HoI4 Custom Cursor Patcher (ステート管理版)")
+    print(" HoI4 mnds Cursor Changer (ステート管理版)")
     print("="*60)
 
     hoi4_path = get_default_hoi4_path()
