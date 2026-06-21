@@ -39,9 +39,9 @@ Clausewitzエンジン（HoI4）におけるマウスカーソルの制御ロジ
 &emsp;    ┃  ┣ 📜 busy.ani<br>
 &emsp;    ┃  ┗ 📜 ...（その他のカーソルファイル）<br>
 &emsp;    ┗ 📂 JPN/<br>
-&emsp;&emsp;       ┣ 📜 arrow.cur<br>
-&emsp; &emsp;      ┣ 📜 busy.ani<br>
-&emsp;  &emsp;     ┗ 📜 ...（その他のカーソルファイル）<br>
+&emsp;&emsp;     ┣ 📜 arrow.cur<br>
+&emsp;&emsp;     ┣ 📜 busy.ani<br>
+&emsp;&emsp;     ┗ 📜 ...（その他のカーソルファイル）<br>
 
 ## 🚀 使用方法 (Usage)
 
