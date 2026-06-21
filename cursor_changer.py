@@ -159,9 +159,14 @@ def main():
         print("\n" + "="*40)
         print(f" 現在の状態: 【 {current_state} 】")
         print("="*40)
-        print("  [1] イタリア (ITA) を適用")
-        print("  [2] 日本 (JPN) を適用")
-        print("  [3] バニラ (VANILLA) に復元してクリーンアップ")
+        print("  [1] イタリアさんカーソル (ITA) を適用")
+        print("  [2] 中国さんカーソル (CIN) を適用")
+        print("  [3] フランスさんカーソル (FRC) を適用")
+        print("  [4] 日本さんカーソル (GPN) を適用")
+        print("  [5] イギリスさんカーソル (IGH) を適用")
+        print("  [6] ドイツさんカーソル (PRS) を適用")
+        print("  [7] ソ連さんカーソル (SOV) を適用")
+        print("  [5] バニラ (VANILLA) に復元してクリーンアップ")
         print("  [0] 終了")
         
         choice = input("番号を入力 > ").strip()
@@ -169,8 +174,18 @@ def main():
         if choice == '1':
             apply_cursors(hoi4_path, "ITA")
         elif choice == '2':
-            apply_cursors(hoi4_path, "JPN")
+            apply_cursors(hoi4_path, "CIN")
         elif choice == '3':
+            apply_cursors(hoi4_path, "FRC")
+        elif choice == '4':
+            apply_cursors(hoi4_path, "GPN")
+        elif choice == '4':
+            apply_cursors(hoi4_path, "IGH")
+        elif choice == '5':
+            apply_cursors(hoi4_path, "PRS")
+        elif choice == '6':
+            apply_cursors(hoi4_path, "SOV")
+        elif choice == '7':
             restore_vanilla(hoi4_path)
         elif choice == '0':
             print("終了します。")

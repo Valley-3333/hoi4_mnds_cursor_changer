@@ -27,22 +27,6 @@ Clausewitzエンジン（HoI4）におけるマウスカーソルの制御ロジ
    初回実行時に gfx/cursors のオリジナルデータを cursors_backup として安全に退避させます。
    メニューから「バニラ環境に復元」を実行した際は、ファイルを元に戻します。これにより、将来的なゲーム本体のアップデート時に古いバックアップデータがシステムと干渉するリスクを排除します。
 
-## 📂 フォルダ構成
-本スクリプト（cursor_patcher.py）を実行するディレクトリに、以下のようにカスタムカーソル素材フォルダ（custom_cursors）を配置してください。
-
-📦 あなたのリポジトリ/<br>
- ┣ 📜 cursor_patcher.py<br>
- ┣ 📜 README.md<br>
- ┗ 📂 custom_cursors/<br>
-&emsp;    ┣ 📂 ITA/<br>
-&emsp;    ┃  ┣ 📜 arrow.cur<br>
-&emsp;    ┃  ┣ 📜 busy.ani<br>
-&emsp;    ┃  ┗ 📜 ...（その他のカーソルファイル）<br>
-&emsp;    ┗ 📂 JPN/<br>
-&emsp;&emsp;     ┣ 📜 arrow.cur<br>
-&emsp;&emsp;     ┣ 📜 busy.ani<br>
-&emsp;&emsp;     ┗ 📜 ...（その他のカーソルファイル）<br>
-
 ## 🚀 使用方法 (Usage)
 
 ### 前提条件
