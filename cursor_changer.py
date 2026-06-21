@@ -166,7 +166,7 @@ def main():
         print("  [5] イギリスさんカーソル (IGH) を適用")
         print("  [6] ドイツさんカーソル (PRS) を適用")
         print("  [7] ソ連さんカーソル (SOV) を適用")
-        print("  [5] バニラ (VANILLA) に復元してクリーンアップ")
+        print("  [8] バニラ (VANILLA) に復元してクリーンアップ")
         print("  [0] 終了")
         
         choice = input("番号を入力 > ").strip()
@@ -179,13 +179,13 @@ def main():
             apply_cursors(hoi4_path, "FRC")
         elif choice == '4':
             apply_cursors(hoi4_path, "GPN")
-        elif choice == '4':
-            apply_cursors(hoi4_path, "IGH")
         elif choice == '5':
-            apply_cursors(hoi4_path, "PRS")
+            apply_cursors(hoi4_path, "IGH")
         elif choice == '6':
-            apply_cursors(hoi4_path, "SOV")
+            apply_cursors(hoi4_path, "PRS")
         elif choice == '7':
+            apply_cursors(hoi4_path, "SOV")
+        elif choice == '8':
             restore_vanilla(hoi4_path)
         elif choice == '0':
             print("終了します。")
