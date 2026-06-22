@@ -2,6 +2,7 @@ import os
 import shutil
 import platform
 from pathlib import Path
+from mnds_cui import mnds_ascii_art
 
 # --- 設定 ---
 CUSTOM_CURSORS_DIR = Path("custom_cursors")
@@ -153,6 +154,9 @@ def main():
             if verify_hoi4_path(hoi4_path):
                 break
             print("[!] 無効なパスです。")
+
+    # 起動時に ASCII アートを表示
+    mnds_ascii_art()
 
     while True:
         current_state = get_current_state(hoi4_path)
