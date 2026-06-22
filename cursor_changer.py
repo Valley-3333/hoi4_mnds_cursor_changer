@@ -142,7 +142,7 @@ def apply_cursors(hoi4_path: Path, faction: str):
 
 def main():
     print("="*60)
-    print(" HoI4 mnds Cursor Changer (ver.alpha)")
+    print(" HoI4 mnds Cursor Changer (ver.alpha-2)")
     print("="*60)
 
     hoi4_path = get_default_hoi4_path()
