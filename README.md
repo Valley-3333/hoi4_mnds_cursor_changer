@@ -1,6 +1,7 @@
 # hoi4_mnds_cursor_changer
 Hearts of Iron IV (HoI4) のマウスポインタ（.cur および .ani）を、ローカルファイルの物理的な上書きによって「もんど☆すとらの」の二次創作カーソルへの変更とデータの管理をするPythonスクリプトです。
-
+https://github.com/Valley-3333/hoi4_mnds_cursor_changer/releases/tag/ver.alpha-2
+exeファイルはここからダウンロードしてね!!!
 ## ⚠️ 免責事項
 本スクリプトはHoI4のローカルゲームファイル（バニラデータ）を直接書き換えます。
 可能な限りソースコードの内容を理解し、完全な自己責任でご使用ください。
